@@ -1,0 +1,110 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('img2.jpeg'); /* Replace with actual image URL or file path */
+            background-size: cover;
+            background-repeat: no-repeat;
+            color:whitesmoke;
+            text-align:center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            
+            list-style: none;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color:whitesmoke;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        footer button:hover {
+            background-color: #45a049;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        form label {
+            text-decoration-color: black;
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        form input {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #45a049;
+        }
+
+        #studentLoginForm{
+            background-color: cadetblue;
+        }
+
+        #adminLoginForm{
+            background-color: cadetblue;
+        }
+
+        #adminRegistrationForm{
+            background-color: cadetblue;
+        }
+
+        #studentRegistrationForm{
+            background-color: cadetblue;
+        }
